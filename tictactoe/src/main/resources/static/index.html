@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body ng-app="ticTacToeApp" ng-controller="MainCtrl">
+    <div class="container">
+        <div class="mode-selection">
+            <label>Выбор режима игры:</label>
+            <select ng-model="selectedMode">
+                <option value="PvB">С ботом</option>
+                <option value="PvP">С другом</option>
+            </select>
+        </div>
+
+        <div class="grid">
+            <div class="horizontal-line"></div>
+            <div class="horizontal-line"></div>
+            <!-- Контейнер для линии победителя -->
+            <div class="win-line" ng-class="winLineClass" ng-if="winLineClass"></div>
+            <div ng-repeat="row in board track by $index" class="row">
+                <div ng-repeat="cell in row track by $index" class="cell" ng-click="makeMove($parent.$index, $index)"
+                    ng-class="{ 'x': cell === 1, 'o': cell === 2, 'disabled': winner }">
+                    {{ getSymbol(cell) }}
+                </div>
+            </div>
+        </div>
+        <div class="start-button">
+            <button ng-click="startGame()">Начать игру</button>
+        </div>
+        <div ng-if="selectedMode === 'PvP'" class="join-url">
+            <p>URL для присоединения: <a href="{{joinUrl}}">{{joinUrl}}</a></p>
+        </div>
+        <!-- Сообщение о победителе -->
+        <div class="winner-message" ng-if="winner">
+            <p>Победитель: {{ getWinnerSymbol(winner) }}</p>
+        </div>
+    </div>
+    <div class="current-player" ng-if="!winner">
+        <p>Текущий игрок: {{ currentPlayer }}</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

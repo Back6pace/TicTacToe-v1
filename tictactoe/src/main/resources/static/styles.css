@@ -1,0 +1,226 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #26a69a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mode-selection {
+    margin-bottom: 20px;
+}
+
+.mode-selection label {
+    font-size: 18px;
+    color: white;
+    margin-right: 10px;
+}
+
+.mode-selection select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+.join-url {
+    text-align: left;
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.join-url a {
+    color: #e0f7fa;
+    text-decoration: underline;
+}
+
+.grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 5px;
+    background-color: #26a69a;
+    position: relative;
+    width: 190px;
+    height: 190px;
+}
+
+.grid::before,
+.grid::after {
+    content: '';
+    position: absolute;
+    background-color: #1c7b71;
+    z-index: 1;
+}
+
+.grid::before {
+    width: 5px;
+    height: 100%;
+    left: 62px;
+}
+
+.grid::after {
+    width: 5px;
+    height: 100%;
+    left: 123px;
+}
+
+.grid .horizontal-line {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #1c7b71;
+    z-index: 1;
+}
+
+.grid .horizontal-line:nth-child(1) {
+    top: 62px;
+}
+
+.grid .horizontal-line:nth-child(2) {
+    top: 123px;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    background-color: #26a69a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.cell:hover {
+    background-color: #4db6ac;
+}
+
+.x {
+    color: #ffca28;
+}
+
+.o {
+    color: #ef5350;
+}
+
+.start-button {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.start-button button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.start-button button:hover {
+    background-color: #e0e0e0;
+}
+
+.cell.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+/* Существующие стили остаются без изменений, добавляем новые */
+
+.winner-message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.win-line {
+    position: absolute;
+    background-color: #ffca28;
+    /* Цвет линии */
+    z-index: 3;
+    transition: all 0.3s ease;
+}
+
+/* Горизонтальные линии */
+.win-line-horizontal-0 {
+    width: 180px;
+    height: 5px;
+    top: 30px;
+    left: 5px;
+}
+
+.win-line-horizontal-1 {
+    width: 180px;
+    height: 5px;
+    top: 91px;
+    left: 5px;
+}
+
+.win-line-horizontal-2 {
+    width: 180px;
+    height: 5px;
+    top: 152px;
+    left: 5px;
+}
+
+/* Вертикальные линии */
+.win-line-vertical-0 {
+    width: 5px;
+    height: 180px;
+    top: 5px;
+    left: 30px;
+}
+
+.win-line-vertical-1 {
+    width: 5px;
+    height: 180px;
+    top: 5px;
+    left: 91px;
+}
+
+.win-line-vertical-2 {
+    width: 5px;
+    height: 180px;
+    top: 5px;
+    left: 152px;
+}
+
+/* Диагональные линии */
+.win-line-diagonal-1 {
+    width: 230px;
+    height: 5px;
+    top: 92px;
+    left: -20px;
+    transform: rotate(45deg);
+}
+
+.win-line-diagonal-2 {
+    width: 230px;
+    height: 5px;
+    top: 92px;
+    left: -20px;
+    transform: rotate(-45deg);
+}

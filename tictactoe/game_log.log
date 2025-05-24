@@ -1,0 +1,164 @@
+мая 24, 2025 7:01:15 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method startGame with parameters [PvB] will execute
+мая 24, 2025 7:01:15 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method createNewGame with parameters [PvB] will execute
+мая 24, 2025 7:01:15 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@23da9e94] will execute
+мая 24, 2025 7:01:15 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame executed with result: null
+мая 24, 2025 7:01:15 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method createNewGame executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@23da9e94
+мая 24, 2025 7:01:15 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method startGame executed with result: com.tictactoe.tictactoe.web.model.WebModel@6533ef10
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move with parameters [com.tictactoe.tictactoe.web.model.WebModel@486fddca, 0, 0] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@601c019c, com.tictactoe.tictactoe.domain.player.Player@77e4b7f7] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@73e4dd34
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@4553df0f
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame executed with result: null
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@601c019c] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame executed with result: null
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@601c019c
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@601c019c, com.tictactoe.tictactoe.domain.player.Player@77e4b7f7] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@45c326d8
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@17ca6a98
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame executed with result: null
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@601c019c] will execute
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame executed with result: null
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@601c019c
+мая 24, 2025 7:01:16 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move executed with result: com.tictactoe.tictactoe.web.model.WebModel@2a4f04f1
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move with parameters [com.tictactoe.tictactoe.web.model.WebModel@16f42efa, 2, 2] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@1833c254, com.tictactoe.tictactoe.domain.player.Player@1c0c458a] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@590ec86f
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@6ebabe4a
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame executed with result: null
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@1833c254] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame executed with result: null
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@1833c254
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@1833c254, com.tictactoe.tictactoe.domain.player.Player@1c0c458a] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@681df0ab
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@1643d837
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame executed with result: null
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@1833c254] will execute
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame executed with result: null
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@1833c254
+мая 24, 2025 7:01:18 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move executed with result: com.tictactoe.tictactoe.web.model.WebModel@438c1dd7
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move with parameters [com.tictactoe.tictactoe.web.model.WebModel@c77ce5e, 0, 2] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@2b031a0, com.tictactoe.tictactoe.domain.player.Player@68fa52e] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@438d3b9b
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@713a188a
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame executed with result: null
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@2b031a0] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame executed with result: null
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@2b031a0
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@2b031a0, com.tictactoe.tictactoe.domain.player.Player@68fa52e] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@72041a3c
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@9596787
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method removeGame executed with result: null
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@2b031a0] will execute
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method saveGame executed with result: null
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@2b031a0
+мая 24, 2025 7:01:19 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move executed with result: com.tictactoe.tictactoe.web.model.WebModel@27ec9bd7
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move with parameters [com.tictactoe.tictactoe.web.model.WebModel@48c24cf9, 1, 2] will execute
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@4605bb91, com.tictactoe.tictactoe.domain.player.Player@423a2789] will execute
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@738b1aa
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@4605bb91
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove with parameters [com.tictactoe.tictactoe.domain.model.TicTacToe@4605bb91, com.tictactoe.tictactoe.domain.player.Player@423a2789] will execute
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById with parameters [2eda07ab-a646-478d-970a-89f0c667f9ed] will execute
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method findGameById executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@5dc78030
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method getNextMove executed with result: com.tictactoe.tictactoe.domain.model.TicTacToe@4605bb91
+мая 24, 2025 7:01:20 PM com.tictactoe.tictactoe.di.aspects.LoggingAspect log
+INFO: Method move executed with result: com.tictactoe.tictactoe.web.model.WebModel@36f5712a
